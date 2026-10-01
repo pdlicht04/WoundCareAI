@@ -1,0 +1,39 @@
+# ======================
+# Core Framework
+# ======================
+fastapi
+uvicorn[standard]
+aiofiles
+python-multipart
+
+# ======================
+# Database
+# ======================
+SQLAlchemy
+pymysql
+
+# ======================
+# Authentication & Security
+# ======================
+python-jose[cryptography]
+passlib[bcrypt]
+
+# ======================
+# Environment Variables
+# ======================
+python-dotenv
+
+# ======================
+# Machine Learning / AI
+# ======================
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
+torchaudio==2.2.0
+ultralytics
+Pillow
+numpy==1.26.4
+
+# ======================
+# Optional Utilities
+# ======================
+typing-extensions
